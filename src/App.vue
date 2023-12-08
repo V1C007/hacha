@@ -1,7 +1,16 @@
 <template>
-  <nav></nav>
-</template>
+  <navbar></navbar>
 
+  <div class="home">
+
+    
+
+    <div>
+      
+    </div>
+
+  </div>
+</template>
 <script>
 
 
