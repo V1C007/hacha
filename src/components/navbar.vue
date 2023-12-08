@@ -14,11 +14,39 @@
                         title="catalogo">Cátalogo</router-link>
                 </div>
 
-                
-                
+                <div :class="{ 'hidden': !showMenuLargeScreen }" class="flex items-center space-x-4">
+                    <router-link to="/User"
+                        class="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" title="Usuario">
+                        <img class="w-6 h-6" src="src/assets/styles/User.png" alt="User logo" title="logo user" />
+                    </router-link>
+
+                    <router-link to="/Login"
+                        className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                        title="Login">
+                        Inicio de sesión
+                    </router-link>
+                    <router-link to="/OrdenesCompra"
+                        class="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                        title="OrdenesCompra">
+                        Órdenes de compra
+                    </router-link>
+                    <router-link to="/Wishlist"
+                        className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                        title="Favoritos">
+                        <img class="w-6 h-6" src="src/assets/styles/Heart.png" alt="heart logo" title="logo heart">
+                    </router-link>
+
+                    <router-link to="/Cart"
+                        className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                        title="Compras">
+                        <img class="w-6 h-6" src="src/assets/styles/shopbag.png" alt="bagshop logo" title="logo shopbag">
+                    </router-link>
+                </div>
+
+               
                 </div>
             </div>
-        
+        </div>
     </nav>
 </template>
 
