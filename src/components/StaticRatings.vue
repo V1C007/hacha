@@ -24,7 +24,6 @@
 
 <script>
 import ReviewForm from "../components/reviewForm.vue";
-import reviewsData from '../../reviews.json';
 
 export default {
   components: {
