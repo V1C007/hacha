@@ -1,20 +1,79 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="es-MX">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="HACHA ofrece las mejores hachas del mercado"> 
+  <meta name="author" content="HACHA Group"/>
+  <meta name="publisher" content="HACHA Group">
+  <meta name="keywords" content="HACHA"/>
+  <link rel="canonical" href=""/>
+  <link rel="stylesheet" href="" />
+  <meta name="robots" content="index"/>
+  <meta name="language" content="Spanish">
+
+
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    HACHA - Solo lo mejor
+  </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+<footer class="flex justify-center items-center w-full mt-10 mb-10">
+  <a href="" title="facebook link">
+    <img src="../facebook.png" alt="Facebook" title="Facebook logo" class="w-20 h-20">
+  </a>
+</footer>
+
+</html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    
-    <!-- Agrega la etiqueta del script de Vue.js desde el CDN -->
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8C69FLYGL4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-8C69FLYGL4');
+  </script>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
