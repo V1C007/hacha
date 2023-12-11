@@ -15,89 +15,89 @@ import CartComponent from "../components/CartComponent.vue"
 import Perfil from "../views/Perfil"
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/about',
-    name: 'about',
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  },
-  {
-    path: '/OrdenesCompra',
-    name: 'OrdenesCompra',
-    component: OrdenesCompra
-  },
-  {
-    path: '/Catalogo',
-    name: 'Catalogo',
-    component: CatalogoComponent
-  },
-  {
-    path: '/Producto/:id',
-    name: 'Producto',
-    component: Producto
-  },
-  {
-    path: '/Perfil',
-    name: 'Perfil',
-    component: Perfil
-  },
-  {
-    path: '/Admin',
-    name: 'Admin',
-    component: Admin
-  },
+    {
+        path: '/',
+        name: 'home',
+        component: HomeView
+    },
+    {
+        path: '/about',
+        name: 'about',
+        component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    },
+    {
+        path: '/Producto/:id',
+        name: 'Producto',
+        component: Producto
+    },
+    {
+        path: '/OrdenesCompra',
+        name: 'OrdenesCompra',
+        component: OrdenesCompra
+    },
+    {
+        path: '/Catalogo',
+        name: 'Catalogo',
+        component: CatalogoComponent
+    },
+    {
+        path: '/Perfil',
+        name: 'Perfil',
+        component: Perfil
+    },
+    {
+        path: '/Admin',
+        name: 'Admin',
+        component: Admin
+    },
 
-  {
-    path: '/UserAdmin',
-    name: 'UserAdmin',
-    component: UserAdmin
-  },
-  {
-    path: '/reviewForm',
-    name: 'reviewForm',
-    component: reviewForm
-  },
-  {
-    path: '/LoginComponent',
-    name: 'LoginComponent',
-    component: LoginComponent
-  },
-  {
-    path: '/LoginUser',
-    name: 'LoginUser',
-    component: LoginUser
-  },
-  {
-    path: '/SignUp',
-    name: 'SignUp',
-    component: SignUp
-  },
-  {
-    path: '/Wishlist',
-    name: 'Wishlist',
-    component: WishlistComponent
-  },
-  {
-    path: '/Cart',
-    name: 'Cart',
-    component: CartComponent
-  },
-  {
-    path: '/paypal',
-    name: 'paypal',
-    component: PayPalView,
-    props: true
-  }
+    {
+        path: '/UserAdmin',
+        name: 'UserAdmin',
+        component: UserAdmin
+    },
+    {
+        path: '/reviewForm',
+        name: 'reviewForm',
+        component: reviewForm
+    },
+    {
+        path: '/LoginComponent',
+        name: 'LoginComponent',
+        component: LoginComponent
+    },
+    {
+        path: '/LoginUser',
+        name: 'LoginUser',
+        component: LoginUser
+    },
+    {
+        path: '/SignUp',
+        name: 'SignUp',
+        component: SignUp
+    },
+    {
+        path: '/Wishlist',
+        name: 'Wishlist',
+        component: WishlistComponent
+    },
+    {
+        path: '/Cart',
+        name: 'Cart',
+        component: CartComponent
+    },
+    {
+        path: '/paypal',
+        name: 'paypal',
+        component: PayPalView,
+        props: true
+    }
 
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
-  routes
+    history: createWebHashHistory(),
+    routes
 })
 
 export default router
