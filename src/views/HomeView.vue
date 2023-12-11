@@ -7,7 +7,7 @@
         <div class="mb-4 sm:flex sm:flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
           <div
             class="w-full sm:w-2/5 sm:shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
-            <img src="@/assets/GIB-Card1.jpg" alt="imagen de hacha" title="imagen producto hacha"
+            <img src="../assets/assets/i1.png" alt="imagen de hacha" title="imagen producto hacha"
               class="w-full h-48 object-cover sm:h-full" />
           </div>
           <div class="p-6">
@@ -37,7 +37,7 @@
         <div class="w-full sm:flex sm:flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
           <div
             class="w-full sm:w-2/5 sm:shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
-            <img src="@/assets/GIB-Card2.jpg" alt="imagen de hacha" title="producto hacha"
+            <img src="../assets/assets/i2.png" alt="imagen de hacha" title="producto hacha"
               class="w-full h-48 object-cover sm:h-full" />
           </div>
           <div class="p-6">

@@ -3,7 +3,7 @@
     <div class="container flex items-center justify-center min-h-screen px-6 mx-auto">
       <form class="w-full max-w-md">
         <div class="flex justify-center mx-auto">
-          <img src="../assets/logo.png" class="h-20" alt="imagen del logo" title="Grow in box logo">
+          <img src="../assets/assets/logo.png" class="h-20" alt="imagen del logo" title="Grow in box logo">
         </div>
 
         <div class="flex items-center justify-center mt-6">
