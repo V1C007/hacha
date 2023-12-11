@@ -92,37 +92,6 @@ export default {
 </script>
 
 <style scoped>
-/*Estilos para la animacion del banner*/
-
-.hiddenBG {
-  opacity: 0;
-  background-image: url(@/assets/GIB-HomeBanner.jpg);
-  background-size: 100% auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  border: 0px solid rgb(0, 0, 0);
-  margin: 0 auto;
-  max-width: 100% auto;
-  transition: opacity 5s ease;
-}
-
-.visibleBG {
-  opacity: 1;
-  background-image: url(@/assets/GIB-HomeBanner.jpg);
-  background-size: 100% auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  border: 0px solid rgb(0, 0, 0);
-  margin: 0 auto;
-  max-width: 100% auto;
-  transition: opacity 5s ease;
-}
 
 .hiddenA-text {
   color: hsla(0, 0%, 0%, 0);

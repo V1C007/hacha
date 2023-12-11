@@ -1,0 +1,12 @@
+{
+    "reviews": [
+      {
+        "id": 1,
+        "userId": 1,
+        "productId": 1,
+        "userName": "Pablo Domingo",
+        "comment": "Que genial!",
+        "rating": 4
+      }
+    ]
+  }
