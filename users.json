@@ -1,0 +1,23 @@
+{
+    "Usuarios": [
+        {
+            "id": 1,
+            "Nombre": "Antonio Lopez Lopez",
+            "Correo": "AntLopez@hotmail.com",
+            "Contrasena": "123456789"
+        },
+        {
+            "id": 2,
+            "Nombre": "Tony Perez Caballo ",
+            "Correo": "Tony@hotmail.com",
+            "Contrasena": "1234ASD12"
+        },
+        {
+            "id": 3,
+            "Nombre": "Bruce Troya",
+            "Correo": "Bruce@hotmail.com",
+            "Contrasena": "1234567AB"
+        }
+
+    ]
+}
