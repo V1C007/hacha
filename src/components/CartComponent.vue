@@ -20,7 +20,7 @@
                     <td class="px-6 py-4 text-sm font-medium text-gray-900">{{ producto.nombre }}</td>
                     <td
                         class="relative mx-4 -mt-4 h-20 sm:h-100 md:h-100 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white">
-                        <img :src="require(`@/assets/${producto.imagen}`)" alt="Product Image"
+                        <img :src="require(`@/assets/assets${producto.imagen}`)" alt="Product Image"
                             title="Imagen del producto" class="w-full h-full object-cover object-center max-w-full">
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ producto.precio }}</td>

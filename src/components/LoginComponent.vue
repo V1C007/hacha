@@ -5,7 +5,7 @@
     <div class="mt-20 w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md">
       <div class="px-6 py-4">
         <div class="flex justify-center mx-auto">
-          <img src="../assets/logo.png" class="h-20" alt="imagen del logo" title="Hacha logo">
+          <img src="../assets/assets/logo.png" class="h-20" alt="imagen del logo" title="Hacha logo">
         </div>
 
         <h3 class="mt-3 text-xl font-medium text-center text-gray-600 dark:text-gray-0">
