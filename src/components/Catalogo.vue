@@ -44,7 +44,7 @@
 
         <div
           class="relative mx-4 -mt-6 h-60 sm:h-72 md:h-80 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
-          <img :src="require(`@/assets/product_images/${producto.imagen}`)" alt="Product Image"
+          <img :src="require(`@/assets/assets/${producto.imagen}`)" alt="Product Image"
             title="Imagen del producto" class="w-full h-full object-cover object-center">
         </div>
 
