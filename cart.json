@@ -6,7 +6,7 @@
             "descripcion": "Campismo Portatil Funda Acero Color Negro. El mango está fabricado con goma. La hoja está fabricada en acero.",
             "precio": 1282,
             "stock": 32,
-            "imagen": "i2.png"
+            "imagen": "/i2.png"
         },
         {
             "id": 3,
@@ -14,7 +14,7 @@
             "descripcion": "El Hacha Supervivencia Rescatista Bomberos Mtech Usa 100% Axe14 es el compañero perfecto para tus aventuras al aire libre. Con un tipo de filo de hoja liso y una longitud de hoja de 15 cm, este hacha está diseñada para ofrecer un rendimiento excepcional en situaciones de supervivencia. Su hoja de acero inoxidable garantiza durabilidad y resistencia, mientras que su apertura fija y forma de hoja en clip facilitan su uso y manejo.",
             "precio": 1397,
             "stock": 3,
-            "imagen": "i3.png"
+            "imagen": "/i3.png"
         },
         {
             "id": 4,
@@ -22,7 +22,7 @@
             "descripcion": "Herramienta 16 en 1: Este juego de hacha cuenta con 16 herramientas, como martillo, hacha, alicates planos, tenazas, cortaalambres, cuchillas, destornillador, sierra para madera, llave hexagonal, abrebotellas, escalador de pescado, destornillador de ranura, lima de uñas y bloqueo de alicates. ",
             "precio": 107,
             "stock": 9,
-            "imagen": "i4.png"
+            "imagen": "/i4.png"
         },
         {
             "id": 5,
@@ -30,7 +30,7 @@
             "descripcion": "Resistentes y afiladas, las hachitas se pueden usar para desbastar y cortar maderas. La herramienta correcta para uso profesional o pequeños trabajos del día a día.",
             "precio": 289,
             "stock": 2,
-            "imagen": "i5.png"
+            "imagen": "/i5.png"
         }
     ]
 }
