@@ -51,7 +51,7 @@
                                         Modificar.
                                     </button>
                                     <button @click="DeleteUser(Usuarios.id)"
-                                        class="mx-2 middle none center rounded-lg bg-black-500 hover:bg-black-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white">
+                                        class="mx-2 middle none center rounded-lg bg-black-500 hover:bg-black-600 py-3 px-6 font-sans text-xs font-bold uppercase text-Black">
                                         Eliminar
                                     </button>
                                 </td>
