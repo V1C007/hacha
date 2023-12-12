@@ -14,7 +14,7 @@
         <!-- Detalles del producto -->
         <div class="p-6">
           <!-- Etiqueta "Interesante" -->
-          <h6 class="mb-2 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
+          <h6 class="mb-2 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-red-500 antialiased">
             Interesante
           </h6>
           <!-- Nombre del producto -->
