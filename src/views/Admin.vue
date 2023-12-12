@@ -3,7 +3,7 @@
     <h1 class="mt-10 ml-20 my-3 text-2xl"> Administración</h1>
 
     <button @click="isOpen = true"
-        class="ml-20 middle none center rounded-lg bg-green-500 hover:bg-red-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white">
+        class="ml-20 middle none center rounded-lg bg-green-500 hover:bg-green-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white">
         Agregar.
     </button>
 
@@ -53,13 +53,13 @@
                                 </td>
                                 <td class="text-sm text-gray-900  px-6 py-4 ">
                                     <button
-                                        class="middle none center rounded-lg bg-yellow-500 hover:bg-yellow-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white "
+                                        class="middle none center rounded-lg bg-green-500 hover:bg-green-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white "
                                         @click="EditProduct(Products)">
                                         Modificar.
                                     </button>
 
                                     <button
-                                        class="mx-2 middle none center rounded-lg bg-red-500 hover:bg-red-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white"
+                                        class="mx-2 middle none center rounded-lg bg-green-500 hover:bg-green-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white"
                                         @click="DeleteProduct(Products.id)">
                                         Eliminar
                                     </button>

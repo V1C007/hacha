@@ -3,7 +3,7 @@
     <h1 class="ml-20 my-3 text-2xl">Administración</h1>
 
     <button @click="isOpen = true"
-        class="ml-20 middle none center rounded-lg bg-blue-500 hover:bg-green-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white">
+        class="ml-20 middle none center rounded-lg bg-green-500 hover:bg-green-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white">
         Agregar.
     </button>
 
@@ -47,11 +47,11 @@
                                 </td>
                                 <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                     <button @click="EditUser(Usuarios)"
-                                        class="middle none center rounded-lg bg-yellow-500 hover:bg-yellow-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white ">
+                                        class="middle none center rounded-lg bg-green-500 hover:bg-green-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white ">
                                         Modificar.
                                     </button>
                                     <button @click="DeleteUser(Usuarios.id)"
-                                        class="mx-2 middle none center rounded-lg bg-red-500 hover:bg-red-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white">
+                                        class="mx-2 middle none center rounded-lg bg-black-500 hover:bg-black-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white">
                                         Eliminar
                                     </button>
                                 </td>
@@ -82,9 +82,9 @@
                 <button @click="cancelar()"
                     class="px-6 py-2 text-black border border-gray-300 rounded hover:bg-gray-500">Cancelar</button>
                 <button v-if="isEditing" @click="UpdateUser()"
-                    class="px-6 py-2 text-white bg-blue-500 rounded hover:bg-blue-600">Actualizar</button>
+                    class="px-6 py-2 text-white bg-green-500 rounded hover:bg-green-600">Actualizar</button>
                 <button v-else @click="addUser()"
-                    class="px-6 py-2 text-white bg-blue-500 rounded hover:bg-blue-600">Guardar</button>
+                    class="px-6 py-2 text-white bg-green-500 rounded hover:bg-green-600">Guardar</button>
             </div>
 
         </div>
