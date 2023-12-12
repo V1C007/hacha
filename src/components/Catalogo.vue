@@ -69,7 +69,7 @@
 
           <div class="p-6 pt-0 absolute bottom-0">
             <router-link :to="{ name: 'Producto', params: { id: producto.id } }"
-              class="select-none rounded-lg bg-black py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40"
+              class="select-none rounded-lg bg-green-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md transition-all hover:bg-green-600"
               title="Producto">
               Ver
             </router-link>
