@@ -8,14 +8,15 @@
             <div class="flex items-baseline space-x-4">
               <router-link
                 to="/"
-                class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                class="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium"
                 title="home"
               >
                 Inicio
               </router-link>
               <router-link
                 to="/Catalogo"
-                class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                class="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium"
+                
                 title="catalogo"
               >
                 Catálogo
@@ -24,7 +25,8 @@
   
             <router-link
               to="/Perfil"
-              class="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                class="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium"
+              
               title="Perfil"
             >
               Perfil
@@ -32,21 +34,24 @@
   
             <router-link
               to="/LoginUser"
-              class="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                class="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium"
+              
               title="LoginUser"
             >
               Inicio de sesión
             </router-link>
             <router-link
               to="/OrdenesCompra"
-              class="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                class="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium"
+              
               title="OrdenesCompra"
             >
               Órdenes de compra
             </router-link>
             <router-link
               to="/WishlistComponent"
-              class="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                class="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium"
+             
               title="Favoritos"
             >
               <i class="fas fa-heart text-red-500"></i>
@@ -54,7 +59,8 @@
   
             <router-link
               to="/CartComponent"
-              class="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                class="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium"
+              
               title="Compras"
             >
               <i class="fas fa-shopping-cart text-green-500"></i>
