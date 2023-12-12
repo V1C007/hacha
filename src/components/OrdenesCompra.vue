@@ -18,10 +18,10 @@
             </thead>
             <tbody>
               <tr v-for="producto in usuarioP.productosuser" :key="producto.id" class="bg-white border-b">
-                <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900 max-w-xs">{{ producto.id }}</td>
-                <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900 max-w-xs">{{ producto.nombre }}</td>
+                <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">{{ producto.id }}</td>
+                <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">{{ producto.nombre }}</td>
                 <td class="px-4 py-2 whitespace-normal text-gray-900 max-w-xs">{{ producto.descripcion }}</td>
-                <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900 max-w-xs">{{ producto.precio }}</td>
+                <td class="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900">{{ producto.precio }}</td>
               </tr>
             </tbody>
           </table>
