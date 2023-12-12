@@ -2,7 +2,7 @@
     <div>
       <navbar></navbar>
       <div class="container mx-auto p-4">
-        <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+        <h5 class="mb-2 text-xl font-medium leading-tight text-green-800 dark:text-neutral-50">
           Lo que  compro {{ usuarioP.nombre }}
         </h5>
         <br>

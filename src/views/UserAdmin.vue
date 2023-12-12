@@ -3,7 +3,7 @@
     <h1 class="ml-20 my-3 text-2xl">Administración</h1>
 
     <button @click="isOpen = true"
-        class="ml-20 middle none center rounded-lg bg-blue-500 hover:bg-blue-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white">
+        class="ml-20 middle none center rounded-lg bg-blue-500 hover:bg-green-600 py-3 px-6 font-sans text-xs font-bold uppercase text-white">
         Agregar.
     </button>
 

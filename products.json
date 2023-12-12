@@ -6,7 +6,7 @@
             "descripcion": "El mango está fabricado con bimaterial, La hoja está fabricada en acero inoxidable. El tipo de apertura de la hoja es fija.El largo de la hoja es de 10cm.",
             "precio": 212,
             "stock": 2,
-            "imagen": "i1.png",
+            "imagen": "/i1.png",
             "alt": "Imagen producto 1",
             "title": "Imagen producto"
         },
@@ -16,7 +16,7 @@
             "descripcion": "Campismo Portatil Funda Acero Color Negro. El mango está fabricado con goma. La hoja está fabricada en acero.",
             "precio": 1282,
             "stock": 32,
-            "imagen": "i2.png"
+            "imagen": "/i2.png"
         },
         {
             "id": 3,
@@ -24,7 +24,7 @@
             "descripcion": "El Hacha Supervivencia Rescatista Bomberos Mtech Usa 100% Axe14 es el compañero perfecto para tus aventuras al aire libre. Con un tipo de filo de hoja liso y una longitud de hoja de 15 cm, este hacha está diseñada para ofrecer un rendimiento excepcional en situaciones de supervivencia. Su hoja de acero inoxidable garantiza durabilidad y resistencia, mientras que su apertura fija y forma de hoja en clip facilitan su uso y manejo.",
             "precio": 1397,
             "stock": 3,
-            "imagen": "i3.png"
+            "imagen": "/i3.png"
         },
         {
             "id": 4,
@@ -32,7 +32,7 @@
             "descripcion": "Herramienta 16 en 1: Este juego de hacha cuenta con 16 herramientas, como martillo, hacha, alicates planos, tenazas, cortaalambres, cuchillas, destornillador, sierra para madera, llave hexagonal, abrebotellas, escalador de pescado, destornillador de ranura, lima de uñas y bloqueo de alicates. ",
             "precio": 107,
             "stock": 9,
-            "imagen": "i4.png"
+            "imagen": "/i4.png"
         },
         {
             "id": 5,
@@ -40,7 +40,7 @@
             "descripcion": "Resistentes y afiladas, las hachitas se pueden usar para desbastar y cortar maderas. La herramienta correcta para uso profesional o pequeños trabajos del día a día.",
             "precio": 289,
             "stock": 2,
-            "imagen": "i5.png"
+            "imagen": "/i5.png"
         },
         {
             "id": 6,
@@ -48,7 +48,7 @@
             "descripcion": "Hacha de mano ligera con peso total de 724 g. Mango de nylon resistente para un agarre seguro y cómodo. Cabeza de 450 g con filo de 7 cm para un corte eficiente.",
             "precio": 229,
             "stock": 8,
-            "imagen": "i6.png"
+            "imagen": "/i6.png"
         },
         {
             "id": 7,
@@ -56,7 +56,7 @@
             "descripcion": "Cabeza fabricada en acero al carbono con doble tratamiento térmico para mayor resistencia y durabilidad del filo. Mango largo de fibra de vidrio, cómodo y para mejor agarre, antiderrapante con doble inyección que reduce vibraciones. Con filo curvo, para cortes más delgados y de mayor precisión.",
             "precio": 415,
             "stock": 2,
-            "imagen": "i7.png"
+            "imagen": "/i7.png"
         },
         {
             "id": 8,
@@ -64,7 +64,7 @@
             "descripcion": "Mango de fresno de primera calidad de cuchilla delgada con mango curvado de 27.5cabeza forjada en estampa con canto rectificado a precision, acero duro para temperaturas bajas de 3.5 lbs",
             "precio": 2949,
             "stock": 400,
-            "imagen": "i8.png"
+            "imagen": "/i8.png"
         },
         {
             "id": 9,
@@ -72,7 +72,7 @@
             "descripcion": "Para cortar y rajar madera. Cabeza fabricada en acero alto carbono SAE 1060, doble tratamiento térmico, Ojo cónico alargado. Diseño especial que aprieta el encabado mientras se trabaja. Mango fabricado en encino estufado, pulido y laqueado..",
             "precio": 305,
             "stock": 29,
-            "imagen": "i9.png"
+            "imagen": "/i9.png"
         },
         {
             "id": 10,
@@ -80,7 +80,7 @@
             "descripcion": "vikingo, verdugo, Aproximadamente 85 cm de longitud total del hacha. Hoja de acero al carbono forjado de 33 cm. 9 cm de ancho de la hoja. Cómodo mango de madera dura..",
             "precio": 2900,
             "stock": 22,
-            "imagen": "i10.png"
+            "imagen": "/i10.png"
         }
     ]
    

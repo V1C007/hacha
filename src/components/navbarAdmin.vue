@@ -5,16 +5,15 @@
             <div className="flex items-center justify-between h-16">
                 <img src="../assets/assets/logo.png" class="h-20" alt="imagen del logo" title="HACHA logo">
                 <div className="flex items-baseline space-x-4">
-                    <router-link to="/"
-                        class="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    <router-link to="/" class="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium"
                         title="home">Inicio</router-link>
-                        <router-link to="/Admin"
-                        className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    <router-link to="/Admin"
+                        class="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium"
                         title="contacto">Productos</router-link>
-                        <router-link to="/UserAdmin"
-                            className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                            title="catalogo">Usuarios</router-link>
-                    </div>
+                    <router-link to="/UserAdmin"
+                        class="text-black hover:text-green-500 px-3 py-2 rounded-md text-sm font-medium"
+                        title="catalogo">Usuarios</router-link>
+                </div>
 
             </div>
 
