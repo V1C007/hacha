@@ -127,6 +127,10 @@
     background-color: rgb(255, 0, 0);
   }
 
+  body{
+    background-color: #334155;
+  }
+
   
   </style>
   
