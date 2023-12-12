@@ -10,11 +10,11 @@
         class="rounded-xl bg-white bg-clip-border text-gray-700 shadow-md overflow-hidden">
         <!-- Imagen del producto -->
         <img :src="require(`@/assets/assets/${producto.imagen}`)" :alt="producto.nombre" :title="producto.nombre"
-          class="w-full h-48 object-cover" />
+          class="w-full h-50 object-cover" />
         <!-- Detalles del producto -->
         <div class="p-6">
           <!-- Etiqueta "Interesante" -->
-          <h6 class="mb-2 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-red-500 antialiased">
+          <h6 class="mb-2 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-red-700 antialiased">
             Interesante
           </h6>
           <!-- Nombre del producto -->
