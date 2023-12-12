@@ -50,4 +50,8 @@ export default {
     position: relative;
     left: 7.5%;
 }
+
+td{
+  border: 2px rgba(236, 230, 230, 0) solid;
+}
 </style>
