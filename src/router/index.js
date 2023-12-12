@@ -77,13 +77,13 @@ const routes = [
         component: SignUp
     },
     {
-        path: '/Wishlist',
-        name: 'Wishlist',
+        path: '/WishlistComponent',
+        name: 'WishlistComponent',
         component: WishlistComponent
     },
     {
-        path: '/Cart',
-        name: 'Cart',
+        path: '/CartComponent',
+        name: 'CartComponent',
         component: CartComponent
     },
     {

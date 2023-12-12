@@ -32,13 +32,13 @@
                         title="OrdenesCompra">
                         Órdenes de compra
                     </router-link>
-                    <router-link to="/Wishlist"
+                    <router-link to="/WishlistComponent"
                         className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                         title="Favoritos">
                         <img class="w-6 h-6" src="../assets/assets/Heart.png" alt="heart logo" title="logo heart">
                     </router-link>
 
-                    <router-link to="/Cart"
+                    <router-link to="/CartComponent"
                         className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                         title="Compras">
                         <img class="w-6 h-6" src="../assets/assets/shopbag.png" alt="bagshop logo" title="logo shopbag">
@@ -90,13 +90,13 @@
                                 Órdenes de compra
                             </router-link>
 
-                            <router-link to="/Wishlist"
+                            <router-link to="/WishlistComponent"
                                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                                 title="Favoritos">
                                 Lista de Deseos
                             </router-link>
 
-                            <router-link to="/Cart"
+                            <router-link to="/CartComponent"
                                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                                 title="Compras">
                                 Carrito de Compra
