@@ -14,7 +14,7 @@
 
         <p class="mt-1 text-center">
           Iniciar Sesión o
-          <router-link to="/signup" class="text-blue-500 hover:underline">Crear cuenta</router-link>
+          <router-link to="/signup" class="text-green-500 hover:underline">Crear cuenta</router-link>
         </p>
 
         <form @submit.prevent="signIn">
@@ -34,7 +34,7 @@
           <div class="flex justify-between mt-4">
             <router-link to="/Admin">
               <button router-link to="/Admin" type="submit" @click="signIn"
-                class="px-6 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                class="px-6 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-500 rounded-lg hover:bg-green-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                 Iniciar Sesión
               </button>
             </router-link>
