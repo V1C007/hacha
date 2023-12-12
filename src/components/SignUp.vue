@@ -11,7 +11,7 @@
             Iniciar Sesion
           </router-link>
 
-          <span class="w-1/3 pb-4 font-medium text-center text-gray-800 capitalize border-b-2 border-blue-500 ">
+          <span class="w-1/3 pb-4 font-medium text-center text-gray-800 capitalize border-b-2 border-green-500 ">
             Crear cuenta
           </span>
         </div>
@@ -27,7 +27,7 @@
             </svg>
           </span>
           <input type="text"
-            class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:border-gray-600 focus:border-green-400 dark:focus:border-green-300 focus:ring-green-300 focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Nombre de usuario" />
         </div>
 
@@ -41,7 +41,7 @@
             </svg>
           </span>
           <input type="email"
-            class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11  dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11  dark:text-gray-300 dark:border-gray-600 focus:border-green-400 dark:focus:border-green-300 focus:ring-green-300 focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Correo electronico" />
         </div>
 
@@ -55,7 +55,7 @@
             </svg>
           </span>
           <input type="password"
-            class="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg  dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg  dark:text-gray-300 dark:border-gray-600 focus:border-green-400 dark:focus:border-green-300 focus:ring-green-300 focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Contraseña" />
         </div>
 
@@ -69,14 +69,14 @@
             </svg>
           </span>
           <input type="password"
-            class="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg dark:text-gray-300 dark:border-gray-600 focus:border-green-400 dark:focus:border-green-300 focus:ring-green-300 focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Confirmar contraseña" />
         </div>
 
         <!-- Sign Up Button -->
         <div class="mt-6">
           <button @click="crearCuenta"
-            class="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+            class="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-500 rounded-lg hover:bg-green-400 focus:outline-none focus:ring focus:ring-green-300 focus:ring-opacity-50">
             Crear cuenta
           </button>
 
@@ -87,7 +87,7 @@
 
           <!-- Already have an account link -->
           <div class="mt-6 text-center">
-            <router-link to="/loginUser" class="text-sm text-blue-500 hover:underline dark:text-blue-400">
+            <router-link to="/loginUser" class="text-sm text-green-500 hover:underline dark:text-green-400">
               ¿Ya tienes cuenta?
             </router-link>
           </div>

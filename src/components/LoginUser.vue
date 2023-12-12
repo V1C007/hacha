@@ -14,19 +14,19 @@
 
         <p class="mt-1 text-center">
           Iniciar Sesión o
-          <router-link to="/signup" class="text-blue-500 hover:underline">Crear cuenta</router-link>
+          <router-link to="/signup" class="text-green-500 hover:underline">Crear cuenta</router-link>
         </p>
 
         <form @submit.prevent="signIn">
           <div class="w-full mt-4">
             <input
-              class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border rounded-lg dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+              class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border rounded-lg dark:border-gray-600 dark:placeholder-gray-400 focus:border-green-400 dark:focus:border-green-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-green-300"
               type="email" placeholder="Correo electronico" aria-label="Email Address" />
           </div>
 
           <div class="w-full mt-4">
             <input
-              class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border rounded-lg dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+              class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border rounded-lg dark:border-gray-600 dark:placeholder-gray-400 focus:border-green-400 dark:focus:border-green-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-green-300"
               type="password" placeholder="Contraseña" aria-label="Password" />
           </div>
 
@@ -35,14 +35,14 @@
 
             <router-link to="/LoginComponent">
               <button router-link to="/LoginComponent" type="submit"
-                class="px-6 py-2 text-sm font-medium mr-5 tracking-wide text-Blue">
+                class="px-6 py-2 text-sm font-medium mr-5 tracking-wide text-green">
                 Soy Administrador
               </button>
             </router-link>
 
             <router-link to="/User">
               <button router-link to="/User" type="submit" @click="signIn"
-                class="px-6 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                class="px-6 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-500 rounded-lg hover:bg-green-400 focus:outline-none focus:ring focus:ring-green-300 focus:ring-opacity-50">
                 Iniciar Sesión
               </button>
             </router-link>
