@@ -23,9 +23,6 @@
                     Producto
                   </th>
                   <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4">
-                    Imagen del Producto
-                  </th>
-                  <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4">
                     Precio
                   </th>
                   <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4">
@@ -44,7 +41,6 @@
                 >
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{{ Products.id }}</td>
                   <td class="text-sm text-gray-900 px-6 py-4">{{ Products.nombre }}</td>
-                  <td class="text-sm text-gray-900 px-6 py-4">{{ Products.imagen }}</td>
                   <td class="text-sm text-gray-900 px-6 py-4">{{ Products.precio }}</td>
                   <td class="text-sm text-gray-900 px-6 py-4">{{ Products.descripcion }}</td>
                   <td class="text-sm text-gray-900 px-6 py-4">
@@ -97,14 +93,14 @@
           <button
             v-if="isEditing"
             @click="UpdateProduct()"
-            class="px-6 py-2 text-white bg-blue-500 rounded hover:bg-blue-600"
+            class="px-6 py-2 text-white bg-green-500 rounded hover:bg-green-600"
           >
             Actualizar
           </button>
           <button
             v-else
             @click="Addproduct()"
-            class="px-6 py-2 text-white bg-blue-500 rounded hover:bg-blue-600"
+            class="px-6 py-2 text-white bg-green-500 rounded hover:bg-green-600"
           >
             Guardar
           </button>
@@ -206,6 +202,9 @@
   
   .table tbody tr:nth-child(even) {
     background-color: #edf2f7;
+  }
+  table{
+    border-width: 0px;
   }
   </style>
   
