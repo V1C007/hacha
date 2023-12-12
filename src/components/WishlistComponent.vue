@@ -16,9 +16,11 @@
             <p class="text-gray-700 mb-2">{{ producto.descripcion }}</p>
             <div class="flex items-center">
               <p class="text-gray-500 font-semibold">Precio: {{ producto.precio }}</p>
-              <button @click="removeFromWishlist(producto.id)" class="ml-4 text-red-500 hover:text-red-700">
+              <button @click="removeFromWishlist(producto.id)" class="ml-4 text-red-500 hover:text-red-700 flex items-center">
+                <i class="fas fa-heart text-red-500 mr-1"></i>
                 Eliminar
               </button>
+              <span v-if="productoEliminado === producto.id" class="text-green-500 ml-2">Producto eliminado</span>
             </div>
           </div>
         </div>
@@ -38,12 +40,19 @@
     data() {
       return {
         wishlistData: wishlist.productos,
+        productoEliminado: null,
       };
     },
     methods: {
       removeFromWishlist(id) {
         // Implementa la lógica para eliminar el producto de la lista de deseos
         // Puedes emitir un evento, llamar a una acción de Vuex, etc.
+        // Aquí simulamos la eliminación y mostramos el mensaje
+        this.productoEliminado = id;
+        setTimeout(() => {
+          this.wishlistData = this.wishlistData.filter(producto => producto.id !== id);
+          this.productoEliminado = null;
+        }, 1500);
       }
     }
   };
