@@ -1,50 +1,88 @@
 <template>
     <navbar></navbar>
-
-    <br>
-    <div id="div">
-        <h1 class="mb-2 text-3xl font-medium leading-tight text-neutral-800">
-            Lista de deseos
-        </h1>
-        <br>
-
-        <table class="min-w-full">
-            <thead class="bg-gray-200 border-b text-center">
-                <th>Nombre</th>
-                <th>Imagen</th>
-                <th>Precio</th>
-            </thead>
-            <tbody>
-                <tr v-for="producto in wishlistData" :key="producto.id" class="bg-white border-b ">
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ producto.nombre }}</td>
-                    <td class="relative mx-4 -mt-4 h-40 sm:h-100 md:h-100 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white">
-                        <img :src="require(`@/assets/assets${producto.imagen}`)" alt="Product Image"
-                            title="Imagen del producto" class="w-full h-full object-cover object-center max-w-full">
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ producto.precio }}</td>
-                </tr>
-            </tbody>
-        </table>
-
+  
+    <div class="wishlist-container">
+      <h1 class="text-3xl font-medium text-neutral-800 mb-6">Lista de Deseos</h1>
+  
+      <div v-if="wishlistData.length === 0" class="text-gray-500">Tu lista de deseos está vacía.</div>
+  
+      <div v-else>
+        <div v-for="producto in wishlistData" :key="producto.id" class="wishlist-item">
+          <div class="wishlist-image">
+            <img :src="require(`@/assets/assets${producto.imagen}`)" :alt="producto.nombre" class="w-full h-full object-cover">
+          </div>
+          <div class="wishlist-details">
+            <h2 class="text-xl font-semibold text-gray-900 mb-2">{{ producto.nombre }}</h2>
+            <p class="text-gray-700 mb-2">{{ producto.descripcion }}</p>
+            <div class="flex items-center">
+              <p class="text-gray-500 font-semibold">Precio: {{ producto.precio }}</p>
+              <button @click="removeFromWishlist(producto.id)" class="ml-4 text-red-500 hover:text-red-700">
+                Eliminar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</template>
-
-<script>
-
-import navbar from "../components/navbar.vue"
-import wishlist from '../../wishlist.json'
-export default {
+  </template>
+  
+  <script>
+  import navbar from "../components/navbar.vue";
+  import wishlist from '../../wishlist.json';
+  
+  export default {
     name: 'WishlistComponent',
-    props: {
-        msg: String
-    },
     components: {
-        navbar
+      navbar
     },
     data() {
-        return {
-            wishlistData: wishlist.productos,
-        }
+      return {
+        wishlistData: wishlist.productos,
+      };
+    },
+    methods: {
+      removeFromWishlist(id) {
+        // Implementa la lógica para eliminar el producto de la lista de deseos
+        // Puedes emitir un evento, llamar a una acción de Vuex, etc.
+      }
     }
-}
-</script>
+  };
+  </script>
+  
+  <style scoped>
+  .wishlist-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .wishlist-item {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 16px;
+  }
+  
+  .wishlist-image {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  
+  .wishlist-details {
+    flex: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .wishlist-item {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .wishlist-image {
+      margin-bottom: 16px;
+      margin-right: 0;
+    }
+  }
+  </style>
+  
