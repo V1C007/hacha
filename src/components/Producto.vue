@@ -4,16 +4,19 @@
       <div class="w-1/2 ml-20">
         <img
           v-if="producto && producto.imagen"
+          ref="productImage"
           :src="require(`@/assets/assets/${producto.imagen}`)"
           alt="Product Image"
           title="Imagen del producto"
           class="w-full h-auto object-cover object-center rounded-lg"
+          @mouseover="onImageHover"
+          @mouseout="onImageHover"
         />
       </div>
       <div class="w-1/2 mr-10 font-medium">
         <h1 class="text-4xl ml-5">{{ producto?.nombre || '' }}</h1>
         <p class="text-4xl ml-5 mt-6">$ {{ producto?.precio || '' }} MXN</p>
-        <p class="text-1xl ml-5 mt-6">Stock Disponible: {{ producto?.stock || '' }}</p>
+        <p class="text-1xl ml-5 mt-6 ">Stock Disponible: {{ producto?.stock || '' }}</p>
         <button class="my-5 mx-10 border-solid border-2 border-black w-80 h-10 rounded-md" @click="showAlert">
           Agregar al carrito
         </button>
@@ -21,11 +24,7 @@
           <PayPalButton :precio="producto?.precio || 0"></PayPalButton>
         </button>
         <div class="wishlist">
-          <font-awesome-icon
-            :icon="['fas', 'heart']"
-            :class="{ 'clicked': isClicked }"
-            @click="toggleWishlist"
-          />
+          <span class="heart" :class="{ 'clicked': isClicked }" @click="toggleWishlist"></span>
         </div>
         <p class="mx-10 mt-15 font-medium text-justify">{{ producto?.descripcion || '' }}</p>
       </div>
@@ -38,28 +37,18 @@
   </template>
   
   <script>
-  import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-  import { library } from '@fortawesome/fontawesome-svg-core';
-  import { fas } from '@fortawesome/free-solid-svg-icons';
   import PayPalButton from './PayPalButton.vue';
   import StaticRatings from './StaticRatings.vue';
   import navbar from "./navbar.vue";
   import products from '../../products.json';
   
-  library.add(fas);
-  
   export default {
     name: 'ProductoUNO',
-    components: {
-      FontAwesomeIcon,
-      PayPalButton,
-      StaticRatings,
-      navbar
-    },
     data() {
       return {
         producto: {},
-        isClicked: false
+        isClicked: false,
+        isHovered: false,
       };
     },
     methods: {
@@ -68,7 +57,19 @@
       },
       toggleWishlist() {
         this.isClicked = !this.isClicked;
-      }
+      },
+      onImageHover() {
+        const img = this.$refs.productImage;
+        if (img) {
+          this.isHovered = !this.isHovered;
+          img.style.transform = this.isHovered ? 'scale(1.1)' : 'scale(1)';
+        }
+      },
+    },
+    components: {
+      PayPalButton,
+      StaticRatings,
+      navbar
     },
     created() {
       const productId = Number(this.$route.params.id);
@@ -78,7 +79,7 @@
       if (!this.producto || !this.producto.nombre) {
         console.error('Producto no encontrado o nombre no definido:', this.producto);
       }
-    }
+    },
   };
   </script>
   
@@ -91,7 +92,7 @@
     background-color: rgba(0, 0, 0, 0.959);
     cursor: pointer;
     margin: 20px auto;
-    margin-left: 50px; /* Mover hacia la derecha */
+    margin-left: 50px;
     border-radius: 50%;
   }
   
@@ -125,5 +126,7 @@
   .heart.clicked::after {
     background-color: rgb(255, 0, 0);
   }
+
+  
   </style>
   
